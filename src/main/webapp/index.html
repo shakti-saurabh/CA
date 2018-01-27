@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="ngdemo">
+<head>
+    <meta charset="utf-8">
+    <title>My AngularJS App</title>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <script src="lib/angular/angular.js"></script>
+<script src="lib/angular/angular-resource.js"></script>
+<script src="js/app.js"></script>
+<script src="js/services.js"></script>
+<script src="js/controllers.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/directives.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Total Account Soluions</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#">Home</a></li>
+      <li><a href="#view2">Services</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Login/Register</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div ng-view></div>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+-->
+
+</body>
+</html>
